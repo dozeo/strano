@@ -20,7 +20,7 @@ gem 'yajl-ruby'
 gem 'faraday'
 gem 'faraday-stack'
 gem 'faraday_middleware'
-gem 'capistrano', '~> 2.10.0.pre'
+gem 'capistrano', '~> 2.11.2'
 gem 'capistrano_colors'
 gem 'grit'
 gem 'dotiw'
@@ -30,6 +30,8 @@ gem 'permanent_records'
 gem 'simple_form', :git => 'https://github.com/plataformatec/simple_form.git'
 gem 'open4'
 gem 'ansible'
+gem 'unicorn'
+gem 'foreman'
 
 gem 'whenever', :require => nil
 gem 'airbrake', :require => nil
